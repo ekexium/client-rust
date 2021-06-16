@@ -1,5 +1,10 @@
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
 name: Run all tests
-on: [push, pull_request]
 
 jobs:
   test:
