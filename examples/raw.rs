@@ -14,7 +14,7 @@ const VALUE: &str = "Rust";
 async fn main() -> Result<()> {
     // You can try running this example by passing your pd endpoints
     // (and SSL options if necessary) through command line arguments.
-    let args = parse_args( "raw");
+    let args = parse_args( &"raw");
 
     // Create a configuration to use for the example.
     // Optionally encrypt the traffic.
