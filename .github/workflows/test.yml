@@ -35,7 +35,7 @@ jobs:
       - name: unit test
         run: make unit-test
   integration-test:
-    name: unit test
+    name: integration test
     env:
       CARGO_INCREMENTAL: 0
     runs-on: ubuntu-latest
