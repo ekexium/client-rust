@@ -4,7 +4,7 @@ on:
     branches:
       - master
 
-name: Run all tests
+name: Tests
 
 jobs:
   unit-test:
